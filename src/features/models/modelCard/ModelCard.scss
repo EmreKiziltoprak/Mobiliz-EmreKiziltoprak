@@ -1,0 +1,31 @@
+.card{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    max-width: 250px;
+    padding: 8px 16px;
+
+    &__img{
+        max-width: 100%;
+    }
+
+    &__brand{
+        font-size: 1.0rem;
+    }
+
+    &__model{
+        font-size: 1.0rem;
+
+    }
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+
+    &:hover{
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+}
